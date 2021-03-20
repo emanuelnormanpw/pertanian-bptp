@@ -1,0 +1,635 @@
+@font-face {
+    font-family: monsteratR;
+    src: url(../fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: monsteratB;
+    src: url(../fonts/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: monsteratLight;
+    src: url(../fonts/Montserrat-Light.ttf);
+}
+
+html,
+body {
+    height: 100%;
+    font-family: monsteratR;
+}
+
+body {
+    background-color: #f1f3f6;
+}
+
+.admin-content {
+    height: 100%;
+}
+
+/* sidebar  */
+
+.sidebar {
+    background: #06f157;
+    background: linear-gradient(180deg, rgba(6, 241, 87, 1) 0%, rgba(0, 255, 82, 1) 50%, rgba(42, 194, 104, 1) 100%);
+    padding-top: 50px;
+}
+
+.sidebar .wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: calc(100vh - 50px);
+}
+
+.profil {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.profil img {
+    border-radius: 50%;
+    height: 100px;
+    display: block;
+    margin: 0 auto 20px auto;
+}
+
+.profil h5 {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.profil p {
+    font-size: 14px;
+    font-weight: 200;
+    letter-spacing: 1;
+}
+
+.link-sidebar {
+    margin-bottom: 40px;
+}
+
+#link-text {
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+
+#link-text:hover {
+    color: white;
+}
+
+.text-green{
+    color: #1dc293;
+}
+
+.bg-green{
+    background-color: #1dc293;
+}
+
+.font-bold{
+    font-family: monsteratB;
+}
+
+.font-light{
+    font-family: monsteratLight;
+}
+
+
+/* content  */
+
+/* menu header  */
+
+.content {
+    padding: 80px;
+}
+
+.menu-box {
+    background-color: white;
+    /* width: 200px; */
+    padding: 20px !important;
+    border-radius: 30px !important;
+}
+
+.menu-box.active {
+    background-color: #00ff4d !important;
+}
+
+.menu-box .img {
+    margin-bottom: 10px;
+}
+
+.menu-box p {
+    font-weight: 600;
+    font-size: 18px;
+    margin: 0px;
+}
+
+.list-menu {
+    margin-right: 30px;
+}
+
+.list-menu.active {
+    background-color: #00ff4d !important;
+}
+
+.list-menu p {
+    font-weight: 600;
+    font-size: 18px;
+    margin: 0px;
+}
+
+
+/* chart  */
+
+.chart {
+    height: 350px;
+    background-color: white;
+    border-radius: 30px !important;
+    margin-bottom: 40px;
+}
+
+
+/* team  */
+
+.member {
+    margin-top: 20px;
+    padding: 40px !important;
+    background-color: white;
+    border-radius: 30px !important;
+    display: flex;
+}
+
+.member-list {
+    align-items: center;
+}
+
+.member-list .img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: lightgray;
+    margin-right: 10px;
+}
+
+.member-list p {
+    margin-bottom: 0px;
+}
+
+/* dropdown  */
+
+.form-dropDown {
+    margin-top: 120px;
+}
+
+.myform {
+    padding: 20px;
+    border-radius: 50px;
+    background-size: 30px 20px !important;
+    border: 0px;
+    margin-bottom: 50px;
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><path fill='none' stroke='%2300ff4d' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/></svg>");
+    color: lightgray !important;
+    font-weight: 500;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-list {
+    padding: 0 40px 0 40px;
+}
+
+.has-feedback {
+    position: relative;
+}
+
+.form-control-feedback {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    display: block;
+    width: 34px;
+    height: 34px;
+    line-height: 34px !important;
+    text-align: center;
+    pointer-events: none;
+}
+
+
+
+/*============================================================================== page home  */
+
+.home {
+    height: 100vh;
+    width: 100%;
+    background-image: url("../images/sawah.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 58%;
+}
+
+.home-aboutus {
+    height: 100vh;
+    width: 100%;
+    background-image: url("../images/sawah.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.about-us-title p{
+    padding: 64px 64px;
+    margin: 0px;
+    text-align: center;
+    font-size: 32px;
+}
+
+
+header {
+    padding: 30px 0 30px 0;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 1) -20%, rgba(42, 194, 104, 0) 100%);
+}
+
+.logo img {
+    height: 100px;
+}
+
+.logo .brand p {
+    color: white;
+    margin-bottom: 0px;
+    font-weight: 900;
+    font-size: 18px;
+    padding-bottom: 0px;
+}
+
+.nav .nav-link {
+    color: #ffffff;
+    font-weight: 500;
+    position: relative;
+}
+
+.nav .nav-link:hover {
+    color: lightgray;
+}
+
+.nav .nav-link.active::after {
+    content: "";
+    background-color: #1dc293;
+    width: 40%;
+    height: 5px;
+    position: absolute;
+    bottom: 0px;
+    left: 15px;
+    border-radius: 20px;
+}
+
+.nav .nav-link::after {
+    content: "";
+    background-color: #1dc293;
+    width: 0%;
+    height: 5px;
+    position: absolute;
+    bottom: 0px;
+    left: 15px;
+    border-radius: 20px;
+    transition: width .5s;
+}
+
+.nav .nav-link:hover:after {
+    content: "";
+    background-color: #1dc293;
+    width: 40%;
+    height: 5px;
+    position: absolute;
+    bottom: 0px;
+    left: 15px;
+    border-radius: 20px;
+}
+
+.btn-scss {
+    color: #ffffff;
+    border-radius: 3px;
+    font-size: 14px;
+    padding: 10px 70px;
+    text-transform: uppercase;
+    font-weight: 800;
+    background: rgb(1, 252, 77);
+    background: linear-gradient(90deg, #1dc293 0%, rgba(52, 180, 109, 1) 70%);
+    border: 0px;
+    margin-top: 40px;
+}
+
+.btn-scss:focus {
+    outline: none;
+}
+
+.btn-scss:hover {
+    background: linear-gradient(90deg, #44c5a1 0%, rgb(80, 184, 127) 70%);
+}
+
+main h1 {
+    font-size: 7em;
+    font-weight: 900;
+    margin-bottom: 0px;
+}
+
+footer {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#3f3f3f+0,141414+100&0+0,1+59 */
+    background: -moz-linear-gradient(top, rgba(63, 63, 63, 0) 0%, rgba(38, 38, 38, 1) 59%, rgba(20, 20, 20, 1) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(63, 63, 63, 0) 0%, rgba(38, 38, 38, 1) 59%, rgba(20, 20, 20, 1) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) -20%, rgba(42, 194, 104, 0) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#003f3f3f', endColorstr='#141414', GradientType=0);
+    /* IE6-9 */
+    padding: 60px 0 30px 0;
+}
+
+footer p {
+    margin-bottom: 0px;
+    color: lightgray;
+    font-weight: 500;
+}
+
+
+/*============================================================================== page login  */
+
+/* .login .brand {
+    margin-bottom: 25px;
+}
+
+.login .brand img {
+    object-fit: contain;
+}
+
+.login .brand p{
+    margin-top: 20px;
+    font-weight: 900;
+    font-size: 30px;
+} 
+
+.form_input {
+    border-radius: 100px;
+    padding: 15px 20px;
+    background-color: rgb(255, 255, 255,0.8);
+    border: 0px;
+    
+} */
+
+
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+}
+
+.form-signin .checkbox {
+    font-weight: 400;
+}
+
+.form-signin .form-control {
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.form-signin .form-control:focus {
+    z-index: 2;
+}
+
+.form-signin input {
+    margin-bottom: 40px;
+    border-radius: 50px;
+    padding: 15px 25px !important;
+    background-color: rgb(255, 255, 255, 0.8);
+}
+
+.form-signin .logo {
+    height: 150px;
+}
+
+
+/*================================================================================ page tentang kami  */
+
+#tentang {
+    background-color: #f0f3f6;
+}
+
+.box-green {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#00ff35+0,00d566+81 */
+    background: rgb(0, 255, 53);
+    /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(0, 255, 53, 1) 0%, rgba(0, 213, 102, 1) 81%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(0, 255, 53, 1) 0%, rgba(0, 213, 102, 1) 81%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(0, 255, 53, 1) 0%, rgba(0, 213, 102, 1) 81%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00ff35', endColorstr='#00d566', GradientType=0);
+    /* IE6-9 */
+    border-radius: 20px !important;
+    padding: 20px;
+    position: relative;
+}
+
+#tentang .title {
+    padding: 40px 20px;
+}
+
+#tentang h3 {
+    font-weight: 900;
+}
+
+#tentang .container {
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: 100px;
+}
+
+.sejarah {
+    margin: 80px 0 160px;
+    padding: 0 40px;
+}
+
+.logo_m {
+    position: relative;
+}
+
+#mikroskop {
+    object-fit: contain;
+    height: 400px;
+    position: absolute;
+    bottom: -60px;
+    right: -180px;
+}
+
+
+/* sidebar  */
+
+#overlay {
+    display: none;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.24);
+    z-index: 99;
+}
+
+#overlay.active {
+    display: block;
+}
+
+.sidebar-custom {
+    position: absolute;
+    height: 100%;
+    width: 0px;
+    background-color: #ffffff;
+    z-index: 999;
+    right: -250px;
+    text-align: right;
+    transition: all .5s ease-out;
+}
+
+.sidebar-custom div {
+    display: none;
+}
+
+.sidebar-custom.active {
+    display: block;
+    width: 250px;
+    right: 0px;
+    transition: all .5s ease-out;
+}
+
+.sidebar-custom.active div {
+    display: block;
+    opacity: 1;
+    transition: opacity .5s ease-out;
+}
+
+.list-group-custom {
+    background-color: rgba(0, 0, 0, 0) !important;
+    color: #1dc293;
+    padding: 15px 10px;
+}
+
+.list-group-custom.active {
+    background-color: #1dc293 !important;
+    color: white;
+    border: 0px;
+    font-weight: bold;
+}
+
+#menu-button-sidebar {
+    display: none;
+}
+
+
+
+
+
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 992px) {
+    .navigasi {
+        flex-direction: column;
+    }
+
+    .navigasi nav {
+        margin-top: 20px;
+    }
+
+    main {
+        text-align: left;
+    }
+
+    main h1 {
+        font-size: 5em;
+        font-weight: 900;
+        margin: 20px 0px;
+    }
+
+    .home {
+        background-position: 50%;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+
+    #tentang .container {
+        overflow-x: hidden;
+    }
+
+    #mikroskop {
+        object-fit: contain;
+        height: 200px;
+        position: absolute;
+        bottom: 158px;
+        right: -143px;
+    }
+}
+
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+    main {
+        text-align: left;
+        width: 90% !important;
+    }
+
+    main h1 {
+        font-size: 3em;
+        font-weight: 900;
+        margin-bottom: 0px;
+    }
+
+    .btn-scss {
+        margin-top: 30px;
+        font-size: 16px;
+        padding: 6px 40px;
+    }
+
+    .home {
+        background-position: 60%;
+    }
+
+    .nav-masthead {
+        display: none;
+    }
+
+    .navigasi {
+        flex-direction: row;
+    }
+
+
+    #menu-button-sidebar {
+        display: inline-block;
+    }
+
+    .logo img {
+        height: 80px;
+    }
+
+    .logo .brand p {
+        font-size: 16px;
+    }
+
+
+    .form-signin input {
+        padding: 13px 25px !important;
+        margin-bottom: 30px;
+    }
+
+}
