@@ -93,12 +93,6 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-/*
- Template Name: lexa - Responsive Bootstrap 4 Admin Dashboard
- Author: Themesbrand
- Website: www.themesbrand.com
- File: Main js
- */
 !function ($) {
   "use strict";
 

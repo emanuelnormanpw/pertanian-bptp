@@ -8,6 +8,7 @@
     <link href="{{ URL::asset('assets/css/bootstrap-homepage.min.css')}}" rel="stylesheet" type="text/css">
     <link href="{{ URL::asset('assets/css/icons.css')}}" rel="stylesheet" type="text/css">
     <link href="{{ URL::asset('assets/css/homepage-style.css')}}" rel="stylesheet" type="text/css">
+    <link rel="shortcut icon" href="{{ URL::asset('assets/images/favicon.ico')}}">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <title>UPTD BPTP DIY</title>

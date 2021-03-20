@@ -1,10 +1,4 @@
 
-/*
- Template Name: Lexa - Bootstrap 4 Admin Dashboard
- Author: Themesbrand
- File: Calendar Init
- */
-
 
 $(document).ready(function() {
     var date = new Date();

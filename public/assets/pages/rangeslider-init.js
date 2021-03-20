@@ -1,8 +1,4 @@
-/*
- Template Name: Lexa - Responsive Bootstrap 4 Admin Dashboard
- Author: Themesbrand
- File: Range slider
- */
+
 
 $(document).ready(function () {
     $("#range_01").ionRangeSlider();
