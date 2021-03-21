@@ -25,6 +25,19 @@ Route::get('/overview', function () {
     return view('index');
 })->name('overview');
 
+Route::get('/dashboard', function () {
+    return view('dashboard');
+})->name('dashboard');
+
+Route::get('/dashboard/detail/{city}', function ($city) {
+    return view('dashboard-detail',['city'=>$city]);
+})->name('dashboard-detail');
+
+
+Route::get('/laporan', function () {
+    return view('laporan');
+})->name('laporan');
+
 Route::get('/input-data', function () {
     return view('input-data');
 })->name('input-data');
@@ -37,11 +50,6 @@ Route::get('/laporan', function () {
     return view('laporan');
 })->name('laporan');
 
-Route::get('/login', function () {
-    return view('login');
-})->name('login');
-
-
-Route::get('/other', function () {
-    return view('ui-pagination');
-})->name('laporan');
+Route::get('/chart', function () {
+    return view('charts-morris');
+});

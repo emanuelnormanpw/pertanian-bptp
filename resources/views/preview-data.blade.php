@@ -142,10 +142,11 @@
                         </div>
 
                         <div class="col-12 text-right">
-                            <a href="{{route('input-data')}}" class="btn btn-md-block btn-danger my-2">Kembali</a>
+                        <form action="/overview">
+                            <a href="{{route('laporan')}}" class="btn btn-md-block btn-danger my-2">Kembali</a>
                             <button type="submit" class="btn btn-md-block btn-primary my-2">Simpan Data</button>
+                         </form>
                         </div>
-
                     </div>
                 </div>
             </div>

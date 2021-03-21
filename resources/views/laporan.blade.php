@@ -13,6 +13,9 @@
                     <li class="breadcrumb-item">
                         Home
                     </li>
+                    <li class="breadcrumb-item">
+                        Input Data
+                    </li>
                     <li class="breadcrumb-item active">
                         Laporan
                     </li>
@@ -29,7 +32,7 @@
             <div class="card m-b-20">
                 <div class="card-body">
                     <h4 class="mt-0 mb-4 header-title">LAPORAN SERANGAN ORGANISME PENGANGGU TUMBUHAN (OPT)</h4>
-                    <form action="/overview">
+                    <form action="/input-data">
                         <textarea name="isi_laporan" id="laporan_editor" rows="10" cols="100" required></textarea>
                         <div class="mt-4 text-right">
                             <button class="btn btn-primary">Simpan & Lanjutkan</button>

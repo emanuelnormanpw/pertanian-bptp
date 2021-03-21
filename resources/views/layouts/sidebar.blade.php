@@ -13,7 +13,12 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="{{route('input-data')}}" class="waves-effect">
+                                <a href="{{route('dashboard')}}" class="waves-effect">
+                                    <i class="mdi mdi-chart-bar"></i><span> Dashboard </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="{{route('laporan')}}" class="waves-effect">
                                     <i class="ti ti-write"></i><span> Input Data </span>
                                 </a>
                             </li>

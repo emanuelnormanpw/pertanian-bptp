@@ -36,6 +36,7 @@
                             <div class="brand">
                                 <p>UPTD BPTP</p>
                                 <p>Dinas Pertanian D.I.Y</p>
+                                <p>D.I Yogyakarta</p>
                             </div>
                         </div>
                     </div>
@@ -52,12 +53,12 @@
         </header>
 
         <main class="container title_content">
-            <h1 class="animate__animated animate__fadeInUp">Plant <br> Protection</h1>
+            <h1 class="animate__animated animate__fadeInUp title-text font-bold">Plant <br> Protection</h1>
             <a href="#" class="btn_login"><button type="button" class="btn-scss animate__animated animate__fadeInUp">Login</button></a>
         </main>
 
         <main class="container login_content animate__animated animate__fadeInUp">
-            <form action="/overview">
+            <form action="/laporan">
                 <div class="row">
                     <div class="col-md-6 col-xl-5">
                         <div class="card" style="background: linear-gradient(90deg, rgba(52, 180, 109, 0.5), rgba(29,194,147,0.5) 70%);">

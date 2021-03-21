@@ -3,7 +3,7 @@
 
                 <!-- LOGO -->
                 <div class="topbar-left">
-                    <a href="{{route('landing')}}" class="logo">
+                    <a href="{{route('overview')}}" class="logo">
                         <span>
                             <img src="{{ URL::asset('assets/images/logo_long.png')}}" alt="" height="45">
                         </span>
@@ -23,7 +23,7 @@
                                             <?=isset($_GET['nip']) ? $_GET['nip'] : 'User' ?></span>
                                     </div>
                                     <span class="dropdown-toggle nav-link arrow-none nav-user">
-                                        <img src="assets/images/users/user-4.jpg" alt="user" class="rounded-circle">
+                                        <img src="{{ URL::asset('assets/images/users/user-4.jpg')}}" alt="user" class="rounded-circle">
                                     </span>
                                 </div>
                             </div>
