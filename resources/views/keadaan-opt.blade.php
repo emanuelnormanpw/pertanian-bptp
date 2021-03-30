@@ -66,7 +66,7 @@
                     </nav>
                 </div>
             </div>
-            <div class="about-us-title text-white">
+            <div class="about-us-title font-bold text-white">
                 <p>Keadaan OPT</p>
             </div>
         </header>

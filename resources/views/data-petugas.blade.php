@@ -62,8 +62,8 @@
                     </nav>
                 </div>
             </div>
-            <div class="about-us-title text-white">
-                <p>Keadaan OPT</p>
+            <div class="about-us-title font-bold text-white">
+                <p>Data Petugas</p>
             </div>
         </header>
 

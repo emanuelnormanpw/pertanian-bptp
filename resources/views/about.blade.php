@@ -48,7 +48,7 @@
                     </nav>
                 </div>
             </div>
-            <div class="about-us-title">
+            <div class="about-us-title font-bold">
                 <p>Tentang Kami</p>
             </div>
         </header>
