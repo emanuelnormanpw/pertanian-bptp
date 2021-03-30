@@ -20,8 +20,8 @@
             <div class="list-group pt-5">
                 <a href="{{route('landing')}}" class="list-group-item list-group-item-action list-group-custom">Beranda</a>
                 <a href="{{route('about')}}" class="list-group-item list-group-item-action list-group-custom active">Tentang Kami</a>
-                <a href="#" class="list-group-item list-group-item-action list-group-custom">Keadaan OPT</a>
-                <a href="#" class="list-group-item list-group-item-action list-group-custom">Data Petugas</a>
+                <a href="{{route('keadaan-opt')}}" class="list-group-item list-group-item-action list-group-custom active">Keadaan OPT</a>
+                <a href="{{route('data-petugas')}}" class="list-group-item list-group-item-action list-group-custom">Data Petugas</a>
             </div>
         </div>
     </div>
@@ -43,8 +43,8 @@
                     <nav class="nav nav-masthead justify-content-center float-md-end">
                         <a class="nav-link" aria-current="page" href="{{route('landing')}}">Beranda</a>
                         <a class="nav-link active" href="#">Tentang Kami</a>
-                        <a class="nav-link" href="#">Keadaan OPT</a>
-                        <a class="nav-link" href="#">Data Petugas</a>
+                        <a class="nav-link" href="{{route('keadaan-opt')}}">Keadaan OPT</a>
+                        <a class="nav-link" href="{{route('data-petugas')}}">Data Petugas</a>
                     </nav>
                 </div>
             </div>

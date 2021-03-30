@@ -46,6 +46,14 @@ Route::get('/about', function () {
     return view('about');
 })->name('about');
 
+Route::get('/keadaan-opt', function () {
+    return view('keadaan-opt');
+})->name('keadaan-opt');
+
+Route::get('/data-petugas', function () {
+    return view('data-petugas');
+})->name('data-petugas');
+
 Route::get('/laporan', function () {
     return view('laporan');
 })->name('laporan');
