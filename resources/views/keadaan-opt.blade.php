@@ -33,12 +33,9 @@
         <div id="overlay"></div>
         <div class="sidebar-custom" id="sidebar">
             <div class="list-group pt-5">
-                <a href="{{route('landing')}}"
-                    class="list-group-item list-group-item-action list-group-custom">Beranda</a>
-                <a href="{{route('about')}}" class="list-group-item list-group-item-action list-group-custom">Tentang
-                    Kami</a>
-                <a href="{{route('keadaan-opt')}}"
-                    class="list-group-item list-group-item-action list-group-custom active">Keadaan OPT</a>
+                <a href="{{route('landing')}}" class="list-group-item list-group-item-action list-group-custom">Beranda</a>
+                <a href="{{route('about')}}" class="list-group-item list-group-item-action list-group-custom">Tentang Kami</a>
+                <a href="{{route('keadaan-opt')}}" class="list-group-item list-group-item-action list-group-custom active">Keadaan OPT</a>
                 <a href="{{route('data-petugas')}}" class="list-group-item list-group-item-action list-group-custom">Data Petugas</a>
             </div>
         </div>
